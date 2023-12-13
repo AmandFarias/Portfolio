@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Epilogue', sans-serif;
+}
+
+.intro-header {
+    background-color: white;
+    height: 80px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro-header nav {
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: inherit;
+padding: 0 18px;
+}
+
+a, span {
+    color: black;
+}
+.intro-header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 38px;
+}
+
+.intro-header nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+/* intro section */
+.intro-section {
+    background-color: rgb(166, 221, 221);
+    height: 570px;
+     
+}
+
+.intro-section .container {
+    padding: 0 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+}
+
+.intro-section img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: solid black 4px;
+    border-radius: 4px;
+}
+
+intro-section h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+}
+
+intro-section p {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.intro-section .intro-informations {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 16px;
+}
+
+.intro-section .intro-informations button {
+padding: 12px 40px;
+border-radius: 5px;
+border: none;
+color: wheat;
+font-size: 16px;
+cursor: pointer;
+transition: 0.2s;
+background-color: rgb(28, 28, 105);
+
+}
+
+.intro-section .intro-informations button:hover {
+background-color: rgb(17, 17, 65);
+}
+
+.intro-section .intro-informations button:active {
+    background-color: rgb(40, 40, 100);
+}
+
+.intro-section .intro-informations .icons {
+    display: flex;
+    gap: 32px;
+    margin-top: 64px;
+    fill: black;
+}
